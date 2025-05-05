@@ -79,8 +79,8 @@ header .slider {
 .wrapper input[type="radio"] {
   display: none;
 }
-.cards-area{
-    overflow: hidden;
+.cards-area {
+  overflow: hidden;
 }
 .cards-area .cards {
   width: 300%;
@@ -90,17 +90,17 @@ header .slider {
 .cards .row {
   width: 33.4%;
 }
-.cards .row-1{
-    transition: all 0.3s ease;
+.cards .row-1 {
+  transition: all 0.3s ease;
 }
 #tab-1:checked ~ .cards-area .cards .row-1 {
-    margin-left: 0%;
+  margin-left: 0%;
 }
 #tab-2:checked ~ .cards-area .cards .row-1 {
-    margin-left: -33.4%;
+  margin-left: -33.4%;
 }
-#tab-3:checked ~ .cards-area .cards .row-1  {
-    margin-left: -66.8%;
+#tab-3:checked ~ .cards-area .cards .row-1 {
+  margin-left: -66.8%;
 }
 
 .row .pricing-details {
