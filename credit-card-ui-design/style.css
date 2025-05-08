@@ -6,3 +6,24 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e3f2fd;
+}
+.container {
+  position: relative;
+  background: pink;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 380px;
+  width: 100%;
+}
+.logo img {
+  width: 48px;
+}
+header .chip {
+  width: 60px;
+}
